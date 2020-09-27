@@ -1,0 +1,6 @@
+framework module WLWebViewModule {
+  umbrella header "WLWebViewModule.h"
+
+  export *
+  module * { export * }
+}
