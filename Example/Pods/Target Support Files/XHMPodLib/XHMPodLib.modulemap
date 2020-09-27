@@ -1,0 +1,6 @@
+framework module XHMPodLib {
+  umbrella header "XHMPodLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

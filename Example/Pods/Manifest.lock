@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - XHMPodLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XHMPodLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  XHMPodLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  XHMPodLib: 7fef6f0dff346843239bea3d685e38116af974e6
+
+PODFILE CHECKSUM: 80bf10e27de243b089338a7a915c1e9d7a88be26
+
+COCOAPODS: 1.9.3
