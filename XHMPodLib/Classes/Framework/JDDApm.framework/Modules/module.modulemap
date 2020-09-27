@@ -1,0 +1,6 @@
+framework module JDDApm {
+  umbrella header "JDDApm_umbrella.h"
+
+  export *
+  module * { export * }
+}
