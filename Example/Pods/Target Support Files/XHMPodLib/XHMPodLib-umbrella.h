@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JDNSObject.h"
 
 FOUNDATION_EXPORT double XHMPodLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char XHMPodLibVersionString[];
