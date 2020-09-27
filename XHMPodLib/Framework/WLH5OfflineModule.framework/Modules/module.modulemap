@@ -1,0 +1,6 @@
+framework module WLH5OfflineModule {
+  umbrella header "WLH5OfflineModule.h"
+
+  export *
+  module * { export * }
+}

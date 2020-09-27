@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHMPodLib'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'A short description of XHMPodLib.'
 
 # This description is used to generate tags and improve search results.
@@ -38,11 +38,13 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'XHMPodLib' => ['XHMPodLib/Assets/*.png']
   # }
-
+#  s.framework  = "webkit"
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#  s.libraries = "z", "c++"
   # s.dependency 'AFNetworking', '~> 2.3'
   s.vendored_framework  = 'XHMPodLib/Framework/***.framework'
-   s.static_framework = true
-  
+#  s.static_framework = true
+  s.dependency "RealReachability"
+  s.dependency "ZipArchive"
+
 end

@@ -4,7 +4,15 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - XHMPodLib (0.2.2)
+  - RealReachability (1.3.0):
+    - RealReachability/Connection (= 1.3.0)
+    - RealReachability/Ping (= 1.3.0)
+  - RealReachability/Connection (1.3.0)
+  - RealReachability/Ping (1.3.0)
+  - XHMPodLib (0.2.3):
+    - RealReachability
+    - ZipArchive
+  - ZipArchive (1.4.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -13,6 +21,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - RealReachability
+    - ZipArchive
 
 EXTERNAL SOURCES:
   XHMPodLib:
@@ -20,7 +30,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  XHMPodLib: fb87aa62f3a561862ce1c9db78240b10498d0915
+  RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
+  XHMPodLib: 9c0de4a586019875835e678e14ac9ea635392d34
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
 PODFILE CHECKSUM: 80bf10e27de243b089338a7a915c1e9d7a88be26
 
