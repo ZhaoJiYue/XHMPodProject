@@ -19,6 +19,6 @@
     "ios": "8.0"
   },
   "source_files": "XHMPodLib/Classes/**/*",
-  "vendored_frameworks": "XHMPodLib/Framework/Classes/***.framework",
+  "vendored_frameworks": "XHMPodLib/Framework/***.framework",
   "static_framework": true
 }
