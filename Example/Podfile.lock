@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - XHMPodLib (0.1.5)
+  - XHMPodLib (0.1.6)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  XHMPodLib: 230eec763dd91dd8922e26656d8bdda6c0330b7b
+  XHMPodLib: 5a3e99b4a1e742d8c763bd8bed3e664be8104b3f
 
 PODFILE CHECKSUM: 80bf10e27de243b089338a7a915c1e9d7a88be26
 
