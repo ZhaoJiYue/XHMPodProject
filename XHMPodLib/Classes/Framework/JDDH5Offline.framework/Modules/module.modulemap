@@ -1,0 +1,6 @@
+framework module JDDH5Offline {
+  umbrella header "JDDH5Offline_umbrella.h"
+
+  export *
+  module * { export * }
+}
