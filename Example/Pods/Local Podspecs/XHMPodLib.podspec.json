@@ -1,6 +1,6 @@
 {
   "name": "XHMPodLib",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "summary": "A short description of XHMPodLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ZhaoJiYue",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ZhaoJiYue/XHMPodProject.git",
-    "tag": "0.2.3"
+    "tag": "0.2.4"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,10 +22,6 @@
   "vendored_frameworks": "XHMPodLib/Framework/***.framework",
   "static_framework": true,
   "frameworks": "webkit",
-  "libraries": [
-    "z",
-    "c++"
-  ],
   "dependencies": {
     "RealReachability": [
 

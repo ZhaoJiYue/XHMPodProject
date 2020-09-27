@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHMPodLib'
-  s.version          = '0.2.4'
+  s.version          = '0.2.5'
   s.summary          = 'A short description of XHMPodLib.'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'XHMPodLib' => ['XHMPodLib/Assets/*.png']
   # }
-#  s.framework  = "webkit"
+  s.framework  = "webkit"
   # s.public_header_files = 'Pod/Classes/**/*.h'
 #  s.libraries = "z", "c++"
   # s.dependency 'AFNetworking', '~> 2.3'
